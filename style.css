@@ -14,6 +14,7 @@ h1 {
 }
 p {
   text-align: justify;
+  padding-right: 05px;
 }
 .half {
   width: 50%;
@@ -50,4 +51,17 @@ p {
 .experience-area {
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
+}
+#web-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, green);
+  border-image-slice: 1;
+}
+#web-dev-one {
+  border-left: 7px solid;
+  border-image: linear-gradient(green, red);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
